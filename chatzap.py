@@ -65,5 +65,5 @@ def main(pagina):
     pagina.add(texto)
     pagina.add(botao_inicar)
 
-ft.app(main)
-# ft.app(main, view=ft.WEB_BROWSER)
+# ft.app(main)
+ft.app(main, view=ft.WEB_BROWSER)
